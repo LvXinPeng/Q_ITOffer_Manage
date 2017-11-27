@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.applyit-content-box{width:1000px;margin:0 auto;background:#fff;box-shadow:0 0 2px #999}
+.it-success-tips{padding:50px 0 40px 300px}
+.it-success-icon{float:left;width:106px;height:80px;padding-right:23px}
+.it-pageimg{background:url(../images/it-img.png);background-position:0 -252px;width:106px;height:80px;display:inline-block}
+.it-success-word{float:left}
+.it-success-word a{font-size:15px}
+.it-success-word p{padding-top:15px}
+.it-success-word p a{color:#666}
+.it-more-actions{padding:30px 0 30px 308px;background-color:#f7f7f7;border-top:1px dashed #ddd;border-bottom:1px dashed #ddd}
+.tn-text-note{padding:0 0 10px 12px;color:#999}
+.app_btn{position:relative;display:inline-block;width:146px;height:35px;cursor:pointer;text-align:center;zoom:1;overflow:visible;background:url(../images/it-button.png) no-repeat -205px -281px;font-size:12px}
+.app_btn:hover{background-position:-205px -326px}
+.it-icon-view{background:url(../images/it-icon.png) no-repeat -168px -21px;width:16px;height:16px;display:inline-block;}
+.it-icon-modify{background:url(../images/it-icon.png) no-repeat -190px -18px;width:16px;height:16px;display:inline-block;}
+.it-secondary-link {
+    padding: 40px 0 40px 330px;
+}
+.it-secondary-link li {
+    float: left;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    padding-right: 50px;
+    position: relative;
+}
+.it-secondary-link li span,.it-secondary-link li a{float:left;}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Q_ITOffer_Manage</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.CountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.ValidateCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResumeBasicinfoServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.ResumeBasicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.CompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyListServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.CompanyListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JobServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.JobServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JobListServlet</servlet-name>
+    <servlet-class>com.xinpeng.servlet.JobListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountServlet</servlet-name>
+    <url-pattern>/CountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <url-pattern>/ValidateCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResumeBasicinfoServlet</servlet-name>
+    <url-pattern>/ResumeBasicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyServlet</servlet-name>
+    <url-pattern>/CompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyListServlet</servlet-name>
+    <url-pattern>/CompanyListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobServlet</servlet-name>
+    <url-pattern>/JobServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobListServlet</servlet-name>
+    <url-pattern>/JobListServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

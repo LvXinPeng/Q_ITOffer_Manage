@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加职位</title>
+<link href="../css/manageadmin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+function validate(){
+	if(document.getElementById("jobName").value == ""){
+		alert("职位名称不能为空！");
+		document.getElementById("jobName").focus();
+		return false;
+	}
+	if(document.getElementById("jobArea").value == ""){
+		alert("工作地点不能为空！");
+		document.getElementById("jobArea").focus();
+		return false;
+	}
+	if(document.getElementById("jobHiringnum").value == ""){
+		alert("雇佣人数不能为空！");
+		document.getElementById("jobHiringnum").focus();
+		return false;
+	}
+	if(document.getElementById("jobSalary").value == ""){
+		alert("薪水不能为空！");
+		document.getElementById("jobSalary").focus();
+		return false;
+	}
+	return true;
+}
+</script>
+</head>
+<body>
+<div class="place"> <span>位置：</span>
+  <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">添加职位</a></li>
+  </ul>
+</div>
+<div class="formbody">
+  <div class="usual">
+  <form name="frm" action="/Q_ITOffer_Manage/JobServlet?type=add" method="post" onsubmit="return validate();">
+    <div class="tabson">
+      <ul class="forminfo">
+      	<li>
+          <label>职位名称<b>*</b></label>
+          <input name="jobName" type="text" id="jobName" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>招聘人数<b>*</b></label>
+          <input name="jobHiringnum" type="text" id="jobHiringnum" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>职位薪资<b>*</b></label>
+          <input name="jobSalary" type="text" id="jobSalary" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>工作地区<b>*</b></label>
+          <input name="jobArea" type="text" id="jobArea" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>职业描述<b>*</b></label>
+          <input name="jobDesc" type="text" id="jobDesc" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>结束日期<b>*</b></label>
+          <input name="jobEnddate" type="text" id="jobEnddate" class="dfinput" style="width:518px;"/>
+        </li>
+        <li>
+          <label>职位招聘状态</label>
+          <div class="vocation">
+            <select name="jobState" class="select3">
+              <option value="1">招聘中</option>
+              <option value="2">已暂停</option>
+              <option value="3">已结束</option>
+            </select>
+          </div>
+        </li>
+        <li>  <label>&nbsp;</label>
+          <input name="" type="submit" class="btn" value="添加"/>
+        </li>
+      </ul>
+    </div>
+  </form>
+  </div>
+</div>
+</body>
+</html>

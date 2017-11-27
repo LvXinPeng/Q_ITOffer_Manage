@@ -1,0 +1,11 @@
+/*查看简历*/
+.resume_con{ width:1000px; margin:0 auto}
+.status{ border:1px solid #ddd; background:#fff; padding:20px; margin-bottom:20px}
+.pingyu{ background:url(../images/left_line.png) left center no-repeat; padding-left:20px; color:#19A8B6; margin-left:20px}
+.all_resume{ background:#fff; padding:20px; }
+.all_resume img{ border:1px solid #ccc}
+.person_name{ font-size:18px;}
+.all_resume p{ line-height:22px;font-family:Geneva, Arial, Helvetica, sans-serif; font-size:12px; color:#666}
+.resume_title{ background:url(../images/resume_titBj.png); height:39px; line-height:39px; padding-left:30px; font-size:14px; font-weight:bold; color:#666}
+.resume_title .btn{ background:url(../images/btn_Myoperate.png) no-repeat; width:64px; height:27px; text-align:center; color:#19A8B6; float:right; font-size:12px; font-weight:lighter; font-family:Geneva, Arial, Helvetica, sans-serif; margin-right:15px; margin-top:5px; line-height:27px}
+
